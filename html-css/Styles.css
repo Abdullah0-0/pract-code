@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none ;
+  color: white; 
+}
+body{
+  background-color: grey;
+  font-family: "Playwrite VN", serif;
+}
+
+.paren-head{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+.heading{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+}
+.paren-head nav ul{ 
+  /* background-color: antiquewhite; */
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.paren-head button{
+  border-radius: 50px;
+  
+  background-color: lightblue;
+  /* margin: 10px; */
+  margin-top: 15px;
+  margin-right: 60px;
+  width: 90px;
+  height: 50px;
+}
+
+.main-paren{
+  background-color: rgb(10, 10, 105);
+  border-radius: 50px;
+  margin: 90px;
+  margin-right: px;
+  height: 350px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.paren-form{
+  width: 100%;
+  height: 250;
+  display: flex;
+  justify-content: center;
+}
+.form{
+  padding: 20px;
+}
+
