@@ -1,0 +1,87 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* text-decoration: none; */
+list-style: none;
+}
+body{
+  background-color: lightslategray;
+}
+section{
+  background-color: white;
+  width: 90%;
+  height: 85vh;
+  margin: auto;
+  margin-top: 8px;
+}
+header{
+  /* background-color: yellow; */
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+h1{
+  background-color: lightgray;
+  width: 100%;
+  height: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+nav {
+  background-color: lightgray;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+}
+main{
+  /* background-color: rgb(230, 27, 27); */
+  width: 100%;
+  height: 60%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.child{
+  background-color: lightgray;
+
+  width: 100%;
+  height: 50%;
+  text-align: center;
+
+}
+.column-paren{
+
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.column{
+  background-color: lightgray;
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+footer{
+  background-color: lightgray;
+  width: 100%;
+  height: 15%;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
