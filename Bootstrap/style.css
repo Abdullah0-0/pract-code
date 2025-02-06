@@ -1,0 +1,26 @@
+
+.text-decor{
+  text-decoration: none;
+  list-style: none;
+  color: rgba(211, 211, 211, 0.671);
+}
+.text-decor:hover{
+  color: rgba(211, 211, 211, 0.925);
+}
+.bg-dar{
+  background-color: #101820;
+}
+.bg-yell{
+  background-color: #FEE715;
+}
+.color-yell{
+  color:#FEE715 ;
+}
+body{
+  height: 100vh;
+  width: 100%;
+}
+.btn{
+  width: 180px;
+  height: 50px;
+}
