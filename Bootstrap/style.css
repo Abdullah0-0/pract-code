@@ -4,6 +4,12 @@
   list-style: none;
   color: rgba(211, 211, 211, 0.671);
 }
+.text-decor2 i{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  margin: 8px;
+}
 .text-decor:hover{
   color: rgba(211, 211, 211, 0.925);
 }
@@ -23,4 +29,7 @@ body{
 .btn{
   width: 180px;
   height: 50px;
+}
+.form{
+  height: 120px;
 }
