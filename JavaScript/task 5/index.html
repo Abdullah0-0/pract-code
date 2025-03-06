@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Form</title>
+</head>
+<body>
+
+  <h2>Enter Your Details</h2>
+
+  <form onsubmit="return displayValues()">
+    <input type="text" id="input1" placeholder="Enter Your First Name " required><br><br>
+    <input type="text" id="input2" placeholder="Enter Your Last Name" required><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h3>Entered Values:</h3>
+  <p id="result"></p>
+
+  <script>
+    function displayValues() {
+      let value1 = document.getElementById('input1').value;
+      let value2 = document.getElementById('input2').value;
+
+      document.getElementById('result').innerText = `First Name: ${value1}, Last Name: ${value2}`;
+
+      return false;
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
+ <!-- Create a form with two inputs and a submit button. Display the entered values when the button is clicked -->
