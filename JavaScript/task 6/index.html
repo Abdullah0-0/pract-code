@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        form { width: 300px; margin: auto; text-align: left; }
+        input, button { width: 100%; padding: 8px; margin: 5px 0; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h2>Simple Form</h2>
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter your name">
+        <input type="email" id="email" placeholder="Enter your email">
+        <input type="password" id="password" placeholder="Enter your password">
+        <button type="submit">Submit</button>
+        <p id="errorMessage" class="error"></p>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
